@@ -5,6 +5,6 @@ from .parser import Parser
 
 
 class LogFileParser(Parser):
-    def parse(self) -> pd.DataFrame:
+    def parse(self, format: str) -> pd.DataFrame:
         ...
 

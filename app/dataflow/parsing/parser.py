@@ -8,6 +8,16 @@ class Parser(abc.ABC):
         self.data = data
 
     @abc.abstractmethod
-    def parse(self) -> pd.DataFrame:
+    def parse(self, format: str) -> pd.DataFrame:
+        ...
+
+
+from typing import Protocol
+
+class UserData(Protocol):
+    name: str
+    age: int
+
+    def get_age(self) -> int:
         ...
 
