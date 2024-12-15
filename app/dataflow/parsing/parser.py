@@ -8,5 +8,5 @@ class Parser(abc.ABC):
         self.data = data
 
     @abc.abstractmethod
-    def parse(self, format: str) -> pd.DataFrame:
+    def parse(self, fmt: str) -> pd.DataFrame:
         ...
