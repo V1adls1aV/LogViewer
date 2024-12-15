@@ -1,0 +1,11 @@
+[project]
+name = "logviewer"
+version = "0.1.0"
+description = "A simple web logviewer that parses logfile based on its format."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.3",
+    "seaborn>=0.13.2",
+    "streamlit>=1.41.1",
+]
