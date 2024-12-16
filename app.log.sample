@@ -1,0 +1,180 @@
+2024-07-15 14:14:21,517	DEBUG	Getting all ecodes with names
+2024-07-15 14:14:21,556	INFO	Getting additive names chat_id=754826030
+2024-07-15 14:14:21,654	DEBUG	Getting harm degree ecode=е100
+2024-07-15 14:14:21,658	DEBUG	Getting harm degree ecode=е160b
+2024-07-15 14:14:21,660	DEBUG	Getting harm degree ecode=е202
+2024-07-15 14:14:21,663	DEBUG	Getting harm degree ecode=е322
+2024-07-15 14:14:21,665	DEBUG	Getting harm degree ecode=е330
+2024-07-15 14:14:21,667	DEBUG	Getting harm degree ecode=е422
+2024-07-15 14:14:21,669	DEBUG	Getting harm degree ecode=е470
+2024-07-15 14:14:21,671	DEBUG	Getting harm degree ecode=е471
+2024-07-15 14:14:21,673	DEBUG	Getting harm degree ecode=е472
+2024-07-15 14:14:21,675	DEBUG	Getting harm degree ecode=е500
+2024-07-15 14:14:21,677	DEBUG	Getting harm degree ecode=е503
+2024-07-15 14:14:21,679	DEBUG	Getting harm degree ecode=е570
+2024-07-15 14:14:21,682	DEBUG	Getting evalution chat_id=754826030
+2024-07-15 14:14:21,891	DEBUG	Using already extracted barcode
+2024-07-15 14:14:21,892	DEBUG	Using already extracted ingredients
+2024-07-15 14:14:21,892	DEBUG	Using already extracted barcode
+2024-07-15 14:14:21,892	DEBUG	Using already extracted ingredients
+2024-07-15 14:14:21,892	INFO	Open Food Fact POST request barcode=4607029501875
+2024-07-15 14:14:23,113	INFO	Open Food Facts POST request succesful
+2024-07-15 14:14:42,246	INFO	ECODE button ecode=е471
+2024-07-15 14:14:42,257	INFO	Making description ecode=е471
+2024-07-16 09:16:22,391	INFO	Getting user chat_id=754826030
+2024-07-27 11:46:35,904	INFO	Text analyzer chat_id=754826030
+2024-07-27 11:46:35,904	INFO	Getting user chat_id=754826030
+2024-07-27 11:46:35,910	DEBUG	Filtering the text
+2024-07-27 11:46:35,911	DEBUG	Filtered text: ['трикальций фосфат']
+2024-07-27 11:46:35,913	DEBUG	Getting all ecodes with names
+2024-07-27 11:46:35,928	INFO	Getting additive names chat_id=754826030
+2024-07-27 11:46:35,933	DEBUG	Getting harm degree ecode=е341
+2024-07-27 11:46:35,936	DEBUG	Getting evalution chat_id=754826030
+2024-07-27 11:46:38,170	INFO	ECODE button ecode=е341
+2024-07-27 11:46:38,180	INFO	Making description ecode=е341
+2024-07-27 11:47:03,184	INFO	Text analyzer chat_id=754826030
+2024-07-27 11:47:03,186	INFO	Getting user chat_id=754826030
+2024-07-27 11:47:03,193	DEBUG	Filtering the text
+2024-07-27 11:47:03,193	DEBUG	Filtered text: ['карбонат кальция']
+2024-07-27 11:47:03,195	DEBUG	Getting all ecodes with names
+2024-07-27 11:47:03,208	INFO	Getting additive names chat_id=754826030
+2024-07-27 11:47:03,214	DEBUG	Getting harm degree ecode=е170
+2024-07-27 11:47:03,216	DEBUG	Getting evalution chat_id=754826030
+2024-07-27 11:47:09,479	INFO	ECODE button ecode=е170
+2024-07-27 11:47:09,486	INFO	Making description ecode=е170
+2024-08-01 15:52:13,810	INFO	Getting user chat_id=1679451383
+2024-08-10 15:49:29,829	INFO	Premium message chat_id=669632466
+2024-08-10 15:49:29,830	INFO	Getting user chat_id=669632466
+2024-08-24 21:54:10,759	INFO	Feedback message chat_id=521194911
+2024-09-16 10:06:44,996	INFO	Photo analyzer chat_id=280514251
+2024-09-16 10:06:44,996	INFO	Getting user chat_id=280514251
+2024-09-16 10:06:45,060	INFO	Getting image from Telegram server
+2024-09-16 10:06:45,807	INFO	Is ingredients checking for 280514251
+2024-09-16 10:06:46,210	INFO	IsIngredientsModel prediction probability=0.0007401853799819946
+2024-09-16 10:06:46,211	INFO	Extracting barcode from image
+2024-09-16 10:06:46,314	INFO	Product: is_text=True, barcode=
+2024-09-16 10:06:46,315	DEBUG	Using already extracted barcode
+2024-09-16 10:06:46,315	DEBUG	Using already extracted barcode
+2024-09-16 10:06:46,315	DEBUG	Using already extracted barcode
+2024-09-16 10:06:46,315	DEBUG	Using already calculated is_text
+2024-09-16 10:06:46,315	INFO	Extracting ingredients from image user_premium=True
+2024-09-16 10:06:46,315	INFO	Vision Cloud GET request
+2024-09-16 10:06:48,173	INFO	There is no text at the image Vision Cloud
+2024-09-16 10:06:48,177	INFO	Ingredients have extracted successfully
+2024-09-16 10:06:48,178	DEBUG	Using already extracted barcode
+2024-09-16 10:06:55,507	INFO	Text analyzer chat_id=280514251
+2024-09-16 10:06:55,508	INFO	Getting user chat_id=280514251
+2024-09-16 10:06:55,518	DEBUG	Filtering the text
+2024-09-16 10:06:55,519	DEBUG	Filtered text: ['e476']
+2024-09-16 10:06:55,519	DEBUG	Getting all ecodes with names
+2024-09-16 10:06:55,564	INFO	Getting additive names chat_id=280514251
+2024-09-16 10:06:55,574	DEBUG	Getting harm degree ecode=е476
+2024-09-16 10:06:55,578	DEBUG	Getting evalution chat_id=280514251
+2024-09-16 10:06:57,986	INFO	ECODE button ecode=е476
+2024-09-16 10:06:57,997	INFO	Making description ecode=е476
+2024-09-16 10:07:14,308	INFO	Text analyzer chat_id=280514251
+2024-09-16 10:07:14,309	INFO	Getting user chat_id=280514251
+2024-09-16 10:07:14,319	DEBUG	Filtering the text
+2024-09-16 10:07:14,319	DEBUG	Filtered text: ['e492']
+2024-09-16 10:07:14,320	DEBUG	Getting all ecodes with names
+2024-09-16 10:07:14,331	INFO	Getting additive names chat_id=280514251
+2024-09-16 10:07:14,336	DEBUG	Getting harm degree ecode=е492
+2024-09-16 10:07:14,339	DEBUG	Getting evalution chat_id=280514251
+2024-09-16 10:07:16,316	INFO	ECODE button ecode=е492
+2024-09-16 10:07:16,324	INFO	Making description ecode=е492
+2024-09-16 10:07:45,776	INFO	Text analyzer chat_id=280514251
+2024-09-16 10:07:45,777	INFO	Getting user chat_id=280514251
+2024-09-16 10:07:45,786	DEBUG	Filtering the text
+2024-09-16 10:07:45,786	DEBUG	Filtered text: ['e341']
+2024-09-16 10:07:45,787	DEBUG	Getting all ecodes with names
+2024-09-16 10:07:45,802	INFO	Getting additive names chat_id=280514251
+2024-09-16 10:07:45,807	DEBUG	Getting harm degree ecode=е341
+2024-09-16 10:07:45,810	DEBUG	Getting evalution chat_id=280514251
+2024-09-16 10:07:47,500	INFO	ECODE button ecode=е341
+2024-09-16 10:07:47,510	INFO	Making description ecode=е341
+2024-09-20 11:10:07,392	INFO	Getting user chat_id=754826030
+2024-09-20 15:28:00,011	INFO	Photo analyzer chat_id=754826030
+2024-09-20 15:28:00,015	INFO	Getting user chat_id=754826030
+2024-09-20 15:28:00,067	INFO	Getting image from Telegram server
+2024-09-20 15:28:00,722	INFO	Is ingredients checking for 754826030
+2024-09-20 15:28:00,933	INFO	IsIngredientsModel prediction probability=7.937650680541992
+2024-09-20 15:28:00,934	INFO	Extracting barcode from image
+2024-09-20 15:28:01,025	INFO	Product: is_text=True, barcode=
+2024-09-20 15:28:01,025	DEBUG	Using already extracted barcode
+2024-09-20 15:28:01,025	DEBUG	Using already extracted barcode
+2024-09-20 15:28:01,025	DEBUG	Using already extracted barcode
+2024-09-20 15:28:01,025	DEBUG	Using already calculated is_text
+2024-09-20 15:28:01,026	INFO	Extracting ingredients from image user_premium=True
+2024-09-20 15:28:01,026	INFO	Vision Cloud GET request
+2024-09-20 15:28:02,640	INFO	There is no text at the image Vision Cloud
+2024-09-20 15:28:02,644	INFO	Ingredients have extracted successfully
+2024-09-20 15:28:02,645	DEBUG	Using already extracted barcode
+2024-09-20 15:28:32,077	INFO	Photo analyzer chat_id=754826030
+2024-09-20 15:28:32,077	INFO	Getting user chat_id=754826030
+2024-09-20 15:28:32,085	INFO	Getting image from Telegram server
+2024-09-20 15:28:32,495	INFO	Is ingredients checking for 754826030
+2024-09-20 15:28:32,530	INFO	IsIngredientsModel prediction probability=7.33280611038208
+2024-09-20 15:28:32,532	INFO	Extracting barcode from image
+2024-09-20 15:28:32,600	INFO	Product: is_text=True, barcode=
+2024-09-20 15:28:32,601	DEBUG	Using already extracted barcode
+2024-09-20 15:28:32,601	DEBUG	Using already extracted barcode
+2024-09-20 15:28:32,601	DEBUG	Using already extracted barcode
+2024-09-20 15:28:32,601	DEBUG	Using already calculated is_text
+2024-09-20 15:28:32,601	INFO	Extracting ingredients from image user_premium=True
+2024-09-20 15:28:32,601	INFO	Vision Cloud GET request
+2024-09-20 15:28:33,970	INFO	There is no text at the image Vision Cloud
+2024-09-20 15:28:33,970	INFO	Ingredients have extracted successfully
+2024-09-20 15:28:33,970	DEBUG	Using already extracted barcode
+2024-09-20 15:28:44,992	INFO	Blacklist message chat_id=754826030
+2024-09-20 15:28:47,438	INFO	GET blacklist button chat_id=754826030
+2024-09-20 15:28:47,439	INFO	Getting user chat_id=754826030
+2024-09-20 15:28:47,447	INFO	Getting additive names chat_id=754826030
+2024-09-20 15:31:24,727	INFO	Photo analyzer chat_id=754826030
+2024-09-20 15:31:24,728	INFO	Getting user chat_id=754826030
+2024-09-20 15:31:24,736	INFO	Getting image from Telegram server
+2024-09-20 15:31:25,680	INFO	Is ingredients checking for 754826030
+2024-09-20 15:31:25,718	INFO	IsIngredientsModel prediction probability=4.852147579193115
+2024-09-20 15:31:25,719	INFO	Extracting barcode from image
+2024-09-20 15:31:25,779	INFO	Product: is_text=True, barcode=
+2024-09-20 15:31:25,779	DEBUG	Using already extracted barcode
+2024-09-20 15:31:25,779	DEBUG	Using already extracted barcode
+2024-09-20 15:31:25,779	DEBUG	Using already extracted barcode
+2024-09-20 15:31:25,779	DEBUG	Using already calculated is_text
+2024-09-20 15:31:25,779	INFO	Extracting ingredients from image user_premium=True
+2024-09-20 15:31:25,779	INFO	Vision Cloud GET request
+2024-09-20 15:31:27,027	INFO	There is no text at the image Vision Cloud
+2024-09-20 15:31:27,028	INFO	Ingredients have extracted successfully
+2024-09-20 15:31:27,028	DEBUG	Using already extracted barcode
+2024-09-20 15:32:02,818	INFO	Photo analyzer chat_id=754826030
+2024-09-20 15:32:02,819	INFO	Getting user chat_id=754826030
+2024-09-20 15:32:02,828	INFO	Getting image from Telegram server
+2024-09-20 15:32:03,265	INFO	Is ingredients checking for 754826030
+2024-09-20 15:32:03,302	INFO	IsIngredientsModel prediction probability=4.915844917297363
+2024-09-20 15:32:03,303	INFO	Extracting barcode from image
+2024-09-20 15:32:03,389	INFO	Product: is_text=True, barcode=
+2024-09-20 15:32:03,390	DEBUG	Using already extracted barcode
+2024-09-20 15:32:03,390	DEBUG	Using already extracted barcode
+2024-09-20 15:32:03,390	DEBUG	Using already extracted barcode
+2024-09-20 15:32:03,390	DEBUG	Using already calculated is_text
+2024-09-20 15:32:03,390	INFO	Extracting ingredients from image user_premium=True
+2024-09-20 15:32:03,390	INFO	Vision Cloud GET request
+2024-09-20 15:32:05,177	INFO	There is no text at the image Vision Cloud
+2024-09-20 15:32:05,178	INFO	Ingredients have extracted successfully
+2024-09-20 15:32:05,178	DEBUG	Using already extracted barcode
+2024-09-20 15:32:22,275	INFO	Photo analyzer chat_id=754826030
+2024-09-20 15:32:22,277	INFO	Getting user chat_id=754826030
+2024-09-20 15:32:22,283	INFO	Getting image from Telegram server
+2024-09-20 15:32:22,801	INFO	Is ingredients checking for 754826030
+2024-09-20 15:32:22,839	INFO	IsIngredientsModel prediction probability=4.914205074310303
+2024-09-20 15:32:22,840	INFO	Extracting barcode from image
+2024-09-20 15:32:22,927	INFO	Product: is_text=True, barcode=
+2024-09-20 15:32:22,927	DEBUG	Using already extracted barcode
+2024-09-20 15:32:22,927	DEBUG	Using already extracted barcode
+2024-09-20 15:32:22,927	DEBUG	Using already extracted barcode
+2024-09-20 15:32:22,927	DEBUG	Using already calculated is_text
+2024-09-20 15:32:22,927	INFO	Extracting ingredients from image user_premium=True
+2024-09-20 15:32:22,928	INFO	Vision Cloud GET request
+2024-09-20 15:32:24,725	INFO	There is no text at the image Vision Cloud
+2024-09-20 15:32:24,726	INFO	Ingredients have extracted successfully
+2024-09-20 15:32:24,726	DEBUG	Using already extracted barcode
+2024-09-20 15:32:57,294	INFO	Logs command

@@ -21,5 +21,5 @@ uv sync --all-extras --dev
 ### Launch application
 
 ```sh
-uv run streamlit run app.py
+uv run streamlit run 1_Main.py
 ```
