@@ -1,4 +1,10 @@
-# Setup project
+# LogViewer
+
+## Demo
+
+https://disk.yandex.ru/i/wJ2lqMOT1wY2dw
+
+## Setup project
 
 ### Install `uv`
 
