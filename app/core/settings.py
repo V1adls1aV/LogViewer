@@ -6,7 +6,7 @@ import yaml
 
 class Config(BaseModel):
     ENCODING: str
-    FILESIZE_LIMIT: int  # In MB
+    SEGMENT_COUNT: int
 
 
 @lru_cache()

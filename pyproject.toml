@@ -5,6 +5,7 @@ description = "A simple web logviewer that parses logfile based on its format."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "matplotlib>=3.10.0",
     "pandas>=2.2.3",
     "pydantic>=2.10.3",
     "python-dotenv>=1.0.1",
