@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 class HistOfLoad:
     def __init__(self, data: pd.DataFrame, datetime_fmt: str):
@@ -9,7 +10,7 @@ class HistOfLoad:
         datetime_column = self._get_datetime_column(self.data.columns)
         if datetime_column is not None:
             new = pd.to_datetime(
-                self.data[datetime_column].map(lambda x: x.split(',')[0]),
+                self._remove_milliseconds(self.data[datetime_column]),
                 format=self.datetime_fmt).tolist()
 
             start = new[0]
@@ -41,3 +42,8 @@ class HistOfLoad:
         for col in columns:
             if 'time' in col.lower() or 'date' in col.lower():
                 return col
+
+    def _remove_milliseconds(self, df: pd.Series) -> pd.Series:
+        for i in range(len(df)):
+            df[i] = re.sub(r',\d+', '', df[i])
+        return df
