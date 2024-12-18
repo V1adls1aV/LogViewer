@@ -13,13 +13,17 @@
 
 ### Install `uv`
 
+Via curl:
 ```sh
-curl -LsSf https://astral.sh/uv/install.sh | sh  # For Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
+Via homebrew:
 ```sh
-brew install uv  # For MacOS
+brew install uv
 ```
+
+Не забудьте добавить `uv` в environment variables (PATH на Windows)!
 
 
 ### Dependencies & Virtual environment
@@ -32,7 +36,7 @@ uv sync --all-extras --dev
 ### Launch application
 
 ```sh
-uv run streamlit run app.py
+uv run streamlit run 1_Main.py
 ```
 
 ## Как пользоваться
