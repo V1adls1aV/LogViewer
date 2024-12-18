@@ -4,6 +4,17 @@ from app.dataflow.parsing import LogFileParser
 from app.visualizations.load_hist import HistOfLoad
 from app.core import config
 
+
+def get_date_format(data):
+    need_data = "%" + data[0]
+    for i in range(1, len(data)):
+        if not data[i].isalpha():
+            need_data += data[i] + "%"
+        elif data[i] != data[i - 1]:
+            need_data += data[i]
+    return need_data
+
+
 if "data" not in st.session_state:
     st.session_state.data = None
 
@@ -15,7 +26,6 @@ if "datetime_format" not in st.session_state:
 
 if "file" not in st.session_state:
     st.session_state.file = None
-
 
 with st.container():
     col1, col2 = st.columns(2)
@@ -35,8 +45,7 @@ with st.container():
 
     datetime_format = col2.text_input("Datetime Format")
     if datetime_format != '':
-        st.session_state.datetime_format = datetime_format
-
+        st.session_state.datetime_format = get_date_format(datetime_format)
 
 with st.container():
     if st.session_state.file is not None and st.session_state.log_format != '':
@@ -52,4 +61,3 @@ with st.container():
 
     if st.session_state.data is not None:
         st.dataframe(st.session_state.data, use_container_width=True)
-
