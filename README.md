@@ -56,7 +56,7 @@ uv run streamlit run app.py
 Несколько примеров, как данное поле может выглядеть:
 ```
 YYYY:mm:dd 
-SS%MM%HH
+SS-MM-HH
 ```
 
 ## Планы на будущее
